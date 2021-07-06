@@ -12,7 +12,7 @@ export class DataComponent implements OnInit {
 
   forma: FormGroup;
 
-  usuario: Object = {
+  usuario = {
     nombreCompleto:{
       nombre: "Carlos",
       apellido: "Mur"

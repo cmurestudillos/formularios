@@ -72,7 +72,7 @@
   <div class="form-group row">
     <label class="col-2 col-form-label">Pasatiempos</label>
     <div class="col-md-8" formArrayName="pasatiempos">
-      <input *ngFor="let pasatiempo of forma.controls['pasatiempos'].controls; let i = index" type="text" class="form-control" formControlName="{{i}}">
+      <input *ngFor="let pasatiempo of forma.controls['pasatiempos']; let i = index" type="text" class="form-control" formControlName="{{i}}">
     </div>
   </div>
 
