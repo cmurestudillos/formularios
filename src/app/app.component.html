@@ -1,6 +1,17 @@
-<div class="container main-container">
-  <!-- Formulario por Template -->
-  <!-- <app-template></app-template> -->
-  <!-- Formulario por Data -->
-  <app-data></app-data>
+<div class="app-shell">
+  <header class="app-header">
+    <h1>Formularios</h1>
+    <p class="app-subtitle">Ejemplos de validación de formularios en Angular — Template-driven y Reactive Forms</p>
+  </header>
+
+  <main class="main-container">
+    <p-tabView>
+      <p-tabPanel header="Template-driven" leftIcon="pi pi-file-edit">
+        <app-template></app-template>
+      </p-tabPanel>
+      <p-tabPanel header="Reactive Forms" leftIcon="pi pi-sitemap">
+        <app-data></app-data>
+      </p-tabPanel>
+    </p-tabView>
+  </main>
 </div>
