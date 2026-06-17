@@ -1,0 +1,17 @@
+# Directorios de build
+/dist
+/build
+/coverage
+
+# Node
+/node_modules
+
+# Configuración
+*.config.js
+*.conf.js
+
+# Otros
+*.min.js
+*.min.css
+*.spec.ts
+*.test.ts

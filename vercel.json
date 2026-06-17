@@ -1,0 +1,5 @@
+{
+  "framework": "angular",
+  "buildCommand": "ng build",
+  "outputDirectory": "dist/formularios/browser"
+}

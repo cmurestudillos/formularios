@@ -1,1 +1,146 @@
-/* You can add global styles to this file, and also import other style files */
+/* =====================
+   Paleta — gris pizarra + acento índigo
+   ===================== */
+:root {
+  --primary-color: #4f46e5;
+  --primary-color-text: #ffffff;
+  --surface-ground: #f1f5f9;
+  --surface-card: #ffffff;
+  --text-color: #1e293b;
+  --text-color-secondary: #64748b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--surface-ground);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* =====================
+   PrimeNG Card
+   ===================== */
+.p-card {
+  background: var(--surface-card) !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06), 0 8px 24px rgba(15, 23, 42, 0.04) !important;
+  margin-bottom: 1.5rem;
+}
+
+.p-card .p-card-title {
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+  color: var(--text-color) !important;
+}
+
+.p-card .p-card-subtitle {
+  color: var(--text-color-secondary) !important;
+  margin-bottom: 1rem !important;
+}
+
+.p-card .p-card-body {
+  padding: 1.5rem !important;
+}
+
+/* =====================
+   Tabs
+   ===================== */
+.p-tabview-nav {
+  border-radius: 10px 10px 0 0 !important;
+}
+
+.p-tabview-panels {
+  background: transparent !important;
+  padding: 1.5rem 0 0 !important;
+}
+
+/* =====================
+   Campos de formulario
+   ===================== */
+.form-field {
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.form-field label {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.full-width {
+  width: 100%;
+}
+
+.field-error {
+  color: #dc2626;
+  font-size: 0.8rem;
+}
+
+.radio-group {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.radio-option label {
+  font-weight: 400;
+  margin: 0;
+}
+
+.checkbox-field {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.checkbox-field label {
+  font-weight: 400;
+  margin: 0;
+}
+
+.form-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-status {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-color-secondary);
+  display: flex;
+  gap: 0.4rem;
+}
+
+.pasatiempos-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pasatiempo-row {
+  margin-top: 0.6rem;
+}
+
+.debug-output {
+  background: #0f172a;
+  color: #e2e8f0;
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 0.8rem;
+  overflow-x: auto;
+}
